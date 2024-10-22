@@ -19,20 +19,20 @@ public class Ebook extends Livro{
 	public void setWaterMark(String waterMark) {
 		this.waterMark = waterMark;
 	}
-	//Ao anotar nosso método com @Override, o código não compilará
-	//caso esse método não exista na classe pai (superclasse).
+	//Ao anotar nosso mï¿½todo com @Override, o cï¿½digo nï¿½o compilarï¿½
+	//caso esse mï¿½todo nï¿½o exista na classe pai (superclasse).
 	@Override
 	public boolean aplicaDesconta(double porcetagem){
 		if(porcetagem > 0.15){
 			return false;
 		}
 				
-		//double desconto = this.getValor() * porcetagem;
-		//this.setValor(this.getValor() - desconto);
+		double desconto = this.getValor() * porcetagem;
+		this.setValor(this.getValor() - desconto);
 		
-		//this.valor -= this.valor * porcetagem;
+		his.valor -= this.valor * porcetagem;
 		
-		//return true;
+		return true;
 		System.out.println("aplicando desconto no ebook");
 		return super.aplicaDesconta(porcetagem);
 	}

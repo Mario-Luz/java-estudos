@@ -4,12 +4,12 @@ public class CarrinhoDeCompras {
 
 private double total;
 
-/*	public void adiciona(LivroFisico livro){
+	public void adiciona(LivroFisico livro){
 		System.out.println("Adiciona: " + livro);
 	}
 	public void adiciona(Ebook livro){
 		System.out.println("Adiciona: " + livro);
-	}*/
+
 	
 	public void adiciona(Livro livro){
 		System.out.println("Adiciona: " + livro);

@@ -4,7 +4,7 @@ public class CadastroDeLivros {
 
 	public static void main(String[] args) {
 		
-	/*	Autor autor = new Autor();
+		Autor autor = new Autor();
 		autor.nome = "Jose Malcher Jr.";
 		autor.email = "email@gmail.com";
 		autor.cpf = "123.123.123-4";*/
@@ -14,13 +14,13 @@ public class CadastroDeLivros {
 		livro.descricao = "Novos recursos";
 		livro.valor = 59.9;
 		livro.isbn = "123-123-123";
-	//	livro.autor = autor;
+		livro.autor = autor;
 		
-/*		System.out.println(livro.nome);
+	System.out.println(livro.nome);
 		System.out.println(livro.descricao);
 		System.out.println(livro.valor);
 		System.out.println(livro.isbn);
-		*/
+
 		livro.mostraDetalhes();
 		
 		Autor autor2 = new Autor();
@@ -35,7 +35,7 @@ public class CadastroDeLivros {
 		livro2.isbn = "223-323-223";
 		livro2.autor = autor2;
 		
-/*		System.out.println(livro2.nome);
+	System.out.println(livro2.nome);
 		System.out.println(livro2.descricao);
 		System.out.println(livro2.valor);
 		System.out.println(livro2.isbn);*/
